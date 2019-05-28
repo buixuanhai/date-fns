@@ -1,6 +1,6 @@
 {
   "name": "date-fns",
-  "version": "DON'T CHANGE; IT'S SET AUTOMATICALLY DURING DEPLOYMENT; ALSO, USE YARN FOR DEVELOPMENT",
+  "version": "2.0.0-alpha.27",
   "sideEffects": false,
   "contributors": [
     "Sasha Koss <koss@nocorp.me>",
@@ -37,8 +37,8 @@
     "singleQuote": true,
     "semi": false
   },
-  "dependencies": {},
   "devDependencies": {
+    "jsdoc-to-markdown": "leshakoss/jsdoc-to-markdown",
     "babel": "^6.5.2",
     "babel-cli": "^6.6.5",
     "babel-eslint": "^8.2.1",
@@ -54,7 +54,6 @@
     "gzip-size-cli": "^1.0.0",
     "husky": "^1.0.0-rc.7",
     "js-beautify": "^1.5.10",
-    "jsdoc-to-markdown": "leshakoss/jsdoc-to-markdown",
     "karma": "^3.0.0",
     "karma-benchmark": "^1.0.0",
     "karma-benchmark-reporter": "^0.1.1",
